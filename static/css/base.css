@@ -271,10 +271,101 @@
 
 }
 .footerhead h1 span{
-  color:  #5b1111;
+  color:  #5b1111c7;
 }
 .footerhead h1{
   text-align: center;
-  font-size: 7rem;
+  font-size: 5rem;
+  padding-top: 3rem;
+    margin-bottom: -3rem;
+    color: #ffa9b2;
+
 }
 /* Card css*/
+.card{
+  color: var(--clr-neautral-100);
+  /* font-family: sans-serif; */
+  background-image: url('https://img5.goodfon.com/wallpaper/nbig/8/fd/texture-geometric-paper-pink-wallpaper-geometriia-rozovyi-be.jpg');
+  background-size: cover;
+  padding: 4rem 0 0;
+  min-width: 35ch;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 320px;
+  transition: transform 500ms ease;
+  margin: 3rem;
+}
+
+
+.card-content{
+  padding: 1.5em;
+  background: linear-gradient( hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3) 20% ,hsl(0 0% 0% / 1) ) ;
+  height: 100%;
+  transform: translateY(65%);
+  transition: transform 500ms ease;
+  transition-delay: 500ms;
+}
+
+.card-content > *:not(.card-title)
+{
+  opacity: 0;
+  transition: transform 500ms ease;
+  
+}
+.card:hover .card-content > *:not(card-title)
+{
+  opacity: 1;
+  transition-delay: 1000ms;
+}
+.card-title{
+  position: relative;
+  width: max-content;
+}
+.card-title::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 118%;
+  left: -1.5rem;
+  bottom: -7px;
+  height: 3px;
+  background: var(--clr-accent-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+  /* transition: left; */
+}
+.card:hover .card-title::after{
+  transform: scaleX(1);
+}
+
+.card-content h2{
+  margin-bottom: 1rem;
+  max-width: 21ch;
+  color: rgb(63, 36, 36);
+}
+.card-content p{
+  margin-bottom: 1.2rem;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card:hover .card-content{
+  transform: translateY(0%);
+}
+.everything{
+  display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 30px inset rgb(0 0 0 / 60%);
+    background: #ff748ac4;
+}
+.ever{
+  overflow: hidden;
+  background:#ff718773 ;
+}
+.ever h1{
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+}
