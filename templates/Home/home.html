@@ -1,0 +1,127 @@
+{% extends 'Base.html' %}
+
+{% load custom_filters %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+
+{% block body_block %}
+
+<div class="landing-page">
+    <div class="upperlanding">
+
+        <h1> <span>S</span>tain<span>S</span>trong</h>
+
+    </div>
+
+    <div class="lowerlanding">
+        <img src="{% static 'Home/images/14.png' %}" alt="">
+    </div>
+
+</div>
+<div class="Aboutus">
+    <h1>About Us</h1>
+    <div class="aboutusmain">
+
+
+        <div class="aboutusimg">
+
+            <img src="{% static 'Home/images/blooddropre.png' %}" alt="">
+
+        </div>
+        <div class="aboutuscontent">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos nihil mollitia
+                accusantium rerum, necessitatibus ratione voluptatem laborum! Repudiandae odio molestiae
+                voluptas natus id, quos excepturi non fuga voluptate corrupti!</p>
+
+        </div>
+        <div class="aboutusimg">
+
+            <img src="{% static 'Home/images/blooddropre.png' %}" alt="">
+
+        </div>
+    </div>
+</div>
+<div class="reminder">
+    <div class="imgrem">
+        <img src="{% static 'Home/images/menstrual-calendar.jpg' %}" alt="">
+
+    </div>
+    <div class="contentrem">
+        <h2>Track Your dates</h2>
+
+    </div>
+
+</div>
+<div class="Blogmore">
+    <h1>Explore Blogs</h1>
+    <div class="blogmain">
+        <div class="blogimg">
+            <img src="{% static 'Home/images/18.png' %}" alt="">
+
+        </div>
+        <div class="blogcontent">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt totam esse nesciunt
+                aliquid, quam voluptatem vel unde quo iste labore consequuntur! Labore fugit veritatis eius
+                suscipit eos corrupti alias.</p>
+            <a href="{% url 'App_Blog:blog_list' %}"><button class="custom-btn btn-2">Explore</button></a>
+
+        </div>
+        <div class="blogimg">
+            <img src="{% static 'Home/images/18.png' %}" alt="">
+
+        </div>
+    </div>
+
+</div>
+<div class="everything">
+   
+
+</div>
+<div class="contacthome">
+    <h1>Contact Us</h1>
+    <div class="contactmain">
+        <div class="contactcon">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nesciunt quo quod ullam aut repellat
+                natus beatae architecto inventore, vitae nobis repellendus? Cupiditate tempora excepturi ut eos, amet
+                sunt culpa!</p>
+
+            <a href="{% url 'Home:contact' %}"><button class="custom-btn btn-2">Contact us</button></a>
+
+        </div>
+       <div class="contactimg">
+            <img src="{% static 'Home/images/contact.png' %}" alt="">
+        </div>
+    </div>
+</div>
+<footer class="footermain">
+    <div class="footerhead">
+        <h1> <span>S</span>tain<span>S</span>trong</h>
+    </div>
+    <div class="footermaini">
+        <div class="footerimg">
+            <img src="{%  static 'Home/images/24.png' %}" alt="">
+        </div>
+    
+    
+        <div class="footercontent">
+           
+            <p>copyright ©  2021-2023</p>
+    
+        </div>
+    
+        <div class="footerimg">
+            <img src="{%  static 'Home/images/24.png' %}" alt="">
+        </div>    
+
+    </div>
+        
+   
+
+  
+</footer>
+
+
+
+{% endblock %}
