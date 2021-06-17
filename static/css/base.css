@@ -260,7 +260,7 @@
   align-items: center;
   text-align: center;
   justify-content: center; 
-  padding: 2rem 2rem;
+  padding: 0rem 2rem;
 }
 .footerimg img{
   width: 23rem;
@@ -269,4 +269,11 @@
   font-size: 20px;
     padding: 7rem;
 
+}
+.footerhead h1 span{
+  color:  #5b1111;
+}
+.footerhead h1{
+  text-align: center;
+  font-size: 7rem;
 }
