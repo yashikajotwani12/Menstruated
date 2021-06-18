@@ -2,20 +2,26 @@
 {% load crispy_forms_tags %}
 {% block title %} Contact Us {% endblock title %}
 {% block body_block %}
-<div class="contact">
-    
-    <h1>Contact</h1>
-		<h4>Contact us directly if you have any questions</h4>
-		<p>
-			Please write your name, email address and a message below if you have any questions.
-			One of our staff members will be happy to contact you directly and answer your questions as soon as possible. 
-		</p>
-		<form method="post">
-            {{ form | crispy }} 
-            {% csrf_token %}
-            <button type="submit" class="btn btn-success btn-sm">Create Account</button>
 
-        </form>
+<div class="contactmains">
+	<div class="contact">
     
+		<h1>Contact</h1>
+			<h4>Contact us directly if you have any questions</h4>
+			<p>
+				Please write your name, email address and a message below if you have any questions.
+				One of our staff members will be happy to contact you directly and answer your questions as soon as possible. 
+			</p>
+			<form method="post">
+				{{ form | crispy }} 
+				{% csrf_token %}
+				
+				<button type="submit"  class="custom-btn btn-2">Contact Us</button>
+	
+			</form>
+		
+	</div>
+
 </div>
+
 {% endblock %}

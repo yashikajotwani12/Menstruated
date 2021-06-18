@@ -15,6 +15,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+MEDIA_DIR = os.path.join(BASE_DIR,'media')
 
 
 # Quick-start development settings - unsuitable for production
@@ -78,6 +79,10 @@ TEMPLATES = [
 ]
 STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+MEDIA_ROOT =MEDIA_DIR
+MEDIA_URL ='/media/'
+
+
 
 WSGI_APPLICATION = 'StainStrong.wsgi.application'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

@@ -1,0 +1,27 @@
+{% extends 'Base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} Self Care {% endblock title %}
+{% block body_block %}
+{% load static %}
+<div class="selfcare">
+    <h1>Self Care</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum est incidunt blanditiis vero minima! Alias quae consequatur magnam vero culpa illo commodi eligendi consequuntur, nihil doloremque dolores aspernatur iure aliquam!</p>
+
+    </div>
+    <div class="selfmain">
+        <div class="selfimg">
+            <img src="{% static 'Home/images/29.webp' %}" alt="">
+
+        </div>
+        <div class="selfcontent">
+            <h1>Self care during periods.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nisi praesentium perferendis asperiores! Doloribus aliquam laudantium ullam, eligendi cupiditate velit et fugiat. Nesciunt quod sapiente ipsam repellendus dolorem aliquid fugit.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

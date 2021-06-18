@@ -1,0 +1,71 @@
+{% extends 'Base.html' %}
+{% load crispy_forms_tags %}
+{% load custom_filters %}
+{% load static %}
+{% block title %} FAQ {% endblock title %}
+{% block body_block %}
+
+<div class="faq">
+    <h1>Frequently asked questions</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum est incidunt blanditiis vero minima! Alias quae consequatur magnam vero culpa illo commodi eligendi consequuntur, nihil doloremque dolores aspernatur iure aliquam!</p>
+
+    </div>
+    <button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero autem alias? Placeat sint est ad sunt quos sequi consequuntur dolorum! Reprehenderit repellendus tenetur pariatur ducimus saepe temporibus? Quaerat, dolorum.</p>
+</div>
+
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo ratione ipsa incidunt temporibus molestiae corporis maxime ullam possimus, est reprehenderit! Cum quae cumque nisi excepturi! Possimus culpa impedit cumque?</p>
+
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat possimus architecto veritatis, ea asperiores blanditiis enim, fuga repudiandae laudantium dignissimos et magni eos nam ad in error voluptas provident!</p>
+</div>
+
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut dignissimos rem modi at ex qui rerum, enim adipisci facere quibusdam soluta voluptate accusamus fugit officiis! Sequi et quas dicta.</p>
+</div>
+    
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut dignissimos rem modi at ex qui rerum, enim adipisci facere quibusdam soluta voluptate accusamus fugit officiis! Sequi et quas dicta.</p>
+</div>
+    
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut dignissimos rem modi at ex qui rerum, enim adipisci facere quibusdam soluta voluptate accusamus fugit officiis! Sequi et quas dicta.</p>
+</div>
+    
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut dignissimos rem modi at ex qui rerum, enim adipisci facere quibusdam soluta voluptate accusamus fugit officiis! Sequi et quas dicta.</p>
+</div>
+    
+<button class="accordion">Lorem ipsum dolor sit.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut dignissimos rem modi at ex qui rerum, enim adipisci facere quibusdam soluta voluptate accusamus fugit officiis! Sequi et quas dicta.</p>
+</div>
+    
+  
+</div>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+{% endblock %}
