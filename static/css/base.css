@@ -40,7 +40,7 @@
       color:  #5b1111;
   }
   .lowerlanding img{
-    width: 79.7rem;
+    width: 100%;
     height: 38.5rem;
     opacity: 0.8;
   }
@@ -288,14 +288,17 @@
   background-image: url('https://img5.goodfon.com/wallpaper/nbig/8/fd/texture-geometric-paper-pink-wallpaper-geometriia-rozovyi-be.jpg');
   background-size: cover;
   padding: 4rem 0 0;
-  min-width: 35ch;
+  max-width: 35ch;
   border-radius: 1rem;
   overflow: hidden;
   height: 320px;
   transition: transform 500ms ease;
   margin: 3rem;
 }
-
+.card p{
+  line-height: 15px;
+  color:white;
+}
 
 .card-content{
   padding: 1.5em;
@@ -379,6 +382,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background:#ffa9b2;
+  height: 100vh;
+}
+.profile-container h2{
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: bold;
 }
 .profile-container .profile-card{
   display: flex;
@@ -402,7 +412,6 @@
   background: #ff748ac4;
     padding: 2rem 4rem;
     
-
 }
 .faq h1{
   text-align: center;
@@ -570,4 +579,138 @@
     padding: 2rem 2rem;
     border-radius: 18px;
     box-shadow: 0 0 5px 2px rgb(158 158 158 / 35%);
+}
+/* .control-group{
+  display: flex;
+}
+.control-group label{
+  width: 20%;
+}
+.control-group{
+  font-size: 16px;
+    padding: 8px 16px;
+    width: 90%;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212/.5);
+    background-color: #fff;
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent, 0 0 0 0 transparent, 0 0 0 1px rgb(60 66 87 / 16%), 0 0 0 0 transparent, 0 0 0 0 transparent, 0 0 0 0 transparent;
+} */
+.poll{
+  padding: 2rem 2rem;
+  background: #ff718773;
+  
+  
+}
+.poll h1{
+  text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 5rem;
+
+}
+.pollmain{
+  display: flex;
+  margin-bottom: 3rem;
+ 
+}
+.pollimg img{
+  width: 23rem;
+  margin-right: 4rem;
+
+}
+.pollcontent p{
+    color: indianred;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 2rem;
+    
+}
+.mainbasecontainer{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fe99a9ad;
+}
+.mainbasecontainer .form{
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 50%);
+  padding: 2rem;
+  border-radius: 12px;
+}
+.mainbasecontainer h2{
+  font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.mainbasecontainer button{
+  margin: 2rem 2rem;
+  align-items: center;
+}
+.enter{
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 50%);
+  margin-bottom: 1rem;
+}
+/* .main{
+  background: #fe99a9ad;
+  padding: 1rem;
+} */
+.enter{
+  margin: 2rem 7rem;
+  background: #fe99a9ad;
+
+}
+.enter h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.make{
+  padding-top: 15px;
+  border: 2px solid rgb(227, 236, 241);
+  margin-top: 60px;
+  box-shadow: 0 0 5px 2px rgb(158 158 158 / 35%);
+  flex: auto;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  margin-bottom: 4rem;
+  border-radius: 8px;
+  background: #fe99a9ad;
+  margin: 2rem 4rem;
+}
+.make h2{
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width:800px){
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-item active img{
+    width: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .nav-item #mainname{
+    align-items: center;
+    margin: 0rem 8px;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    display: none;
+    margin-right: 1rem;
+  }
+  body{
+    min-width: 300%;
+    overflow-x: hidden;
+  }
 }
