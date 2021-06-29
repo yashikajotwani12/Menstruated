@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -33,11 +36,33 @@
     color:#af2323;
     text-shadow: 0 5px 5px rgb(0 0 0 / 50%);
     font-family: inherit;
-    font-size: 7rem;
+    font-size: 5rem; 
+    
+   
+    font-weight: bold;
+    
+    letter-spacing: 7px;
+    cursor: pointer
    
   }
+  /* .upperlanding h1:hover span:nth-child(1){
+    margin-right: 5px
+
+  } */
   .upperlanding h1 span{
-      color:  #5b1111;
+    transition: .7s linear
+  }
+  /* .upperlanding h1:hover span:nth-child(1):after{
+    content: "'";
+  } */
+  /* .upperlanding h1:hover span:nth-child(2){
+    margin-left: 30px
+  } */
+  .upperlanding h1:hover span{
+    color: rgb(252, 221, 221);
+    text-shadow: 0 0 10px rgb(241, 117, 117),
+                 0 0 20px rgb(236, 132, 132), 
+                 0 0 40px rgb(230, 172, 172);
   }
   .lowerlanding img{
     width: 100%;
@@ -60,7 +85,7 @@
   .Aboutus{
     background: #ff000073;
     padding: 1rem 0;
-    box-shadow: 0 1px 5px 10px;
+    /* box-shadow: 0 1px 5px 10px; */
     height: 100vh;
     z-index: 2;
     overflow: hidden;
@@ -72,6 +97,7 @@
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
+    margin-bottom: 6rem;
   }
   .aboutusmain{
     display: flex;
@@ -86,6 +112,9 @@
     color: white;
     margin-top: -5rem;
 
+  }
+  .aboutusimg img{
+    width: 14rem;
   }
   .reminder{
     background: #ff718773;
@@ -108,7 +137,7 @@
     margin-left: 2rem;
   }
   .custom-btn {
-    width: 130px;
+    width: 156px;
     height: 40px;
     color: #fff;
     border-radius: 8px;
@@ -167,7 +196,7 @@
     width: 23rem;
   }
   .blogcontent button{
-    margin-left: 12rem;
+    margin-left: 4rem;
     margin-top: 5rem;
   }
   .blogcontent p{
@@ -287,12 +316,13 @@
   /* font-family: sans-serif; */
   background-image: url('https://img5.goodfon.com/wallpaper/nbig/8/fd/texture-geometric-paper-pink-wallpaper-geometriia-rozovyi-be.jpg');
   background-size: cover;
-  padding: 4rem 0 0;
-  max-width: 35ch;
+  padding: 1rem 0 0;
+  max-width: 30ch;
   border-radius: 1rem;
   overflow: hidden;
   height: 320px;
   transition: transform 500ms ease;
+  flex:0.33;
   margin: 3rem;
 }
 .card p{
@@ -390,17 +420,7 @@
   margin-bottom: 2rem;
   font-weight: bold;
 }
-.profile-container .profile-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  background: #607d8b8f;
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 0 5px 5px rgb(63 81 181 / 36%);
-}
+
 .profile-container .profile-card p{
   color: white;
   font-weight: bold;
@@ -579,6 +599,7 @@
     padding: 2rem 2rem;
     border-radius: 18px;
     box-shadow: 0 0 5px 2px rgb(158 158 158 / 35%);
+    background-color:pink;
 }
 /* .control-group{
   display: flex;
@@ -607,6 +628,7 @@
     padding: 1rem;
     color: white;
     font-size: 5rem;
+    font-weight: bold;
 
 }
 .pollmain{
@@ -713,4 +735,78 @@
     min-width: 300%;
     overflow-x: hidden;
   }
+}
+/* .blogmy{
+  background: pink;
+  height: 100vh;
+  padding: 5rem 2rem;
+
+} */
+.blogmy h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.blogmy h6{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+.blogmy p{
+  color: indianred;
+  font-size: 21px;
+
+}
+.cardblog{
+  margin: 2rem 1rem;
+    background: pink;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 9px 4px rgb(255 192 203);
+
+}
+.contact h1{
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
+.addprofilepic,.userchangeprofile,.blogmy,.editblog{
+  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffa9b2;
+    height: 100vh;
+}
+.addprofilepicbox,.userchangeprofilebox,.profile-card,.blogmybox,.editblogbox{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+    background: #f68a95;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgb(255 112 158 / 36%);
+}
+.blogmore{
+  margin: 2rem;
+  background: pink;
+  padding: 2rem 3rem;
+  border: 2px solid red;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 5px rgb(255 112 158 / 36%);
+  
+
+}
+.blogmore h2,h4,p{
+  color: white;
+  font-weight: bold;
+}
+.blogmore i{
+  color: indianred;
 }

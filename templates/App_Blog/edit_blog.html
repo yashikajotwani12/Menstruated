@@ -6,21 +6,28 @@
 
 {% block body_block %}
 
-{% if blog.author == user %}
 
-<form method="post">
+<div class="editblog">
+    <div class="editblogbox">
+        {% if blog.author == user %}
+        <form method="post">
 
-    {{form| crispy}}
-    {% csrf_token %}
-    <button type="submit" class="btn btn-info btn-sm">Update</button>
-    
-</form>
-{% else %}
+            {{form| crispy}}
+            {% csrf_token %}
+            <button type="submit" class="btn btn-info btn-sm">Update</button>
+            
+        </form>
+        {% else %}
+        
+        <p> You are not allowed to edit this page </p>
+        
+        
+        
+        {% endif %}
 
-<p> You are not allowed to edit this page </p>
+    </div>
+</div>
 
 
-
-{% endif %}
 
 {% endblock %}

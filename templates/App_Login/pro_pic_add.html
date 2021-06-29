@@ -5,13 +5,21 @@
 
 
 {% block body_block %}
-<h2>Add Your Profile Picture</h2>
-<form  method="post" enctype="multipart/form-data">
-    {{form|crispy}}
+<div class="addprofilepic">
+    <h2>Add Your Profile Picture</h2>
+    <div class="addprofilepicbox">
+        <form  method="post" enctype="multipart/form-data">
+            {{form|crispy}}
+        
+            {% csrf_token %}
+            <button type="submit" class="custom-btn btn-2">Add Picture</button>
+        
+        </form>
 
-    {% csrf_token %}
-    <button type="submit" class="btn btn-primary btn-sm">Add Picture</button>
+    </div>
 
-</form>
+
+</div>
+
 
 {% endblock body_block %}

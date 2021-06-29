@@ -6,32 +6,36 @@
 {% block body_block %}
 
 {% for blog in blogs %}
-<div class="card">
-<h2>{{ blog.blog_title }}</h2>
-<h6><i>{{ blog.public_date}}</i></h6>
+<div class="cardblogmain">
+    <div class="cardblog">
+        <h2>{{ blog.blog_title }}</h2>
+        <h6><i>{{ blog.public_date}}</i></h6>
+        
+        <div class="row">
+        
+        <div class="col-sm-4">
+        
+        <img src="/media/{{blog.blog_image}}" alt="{{ blog.blog_title}}" title="{{blog.blog_title}}" width="100%">
+        
+        
+            
+        </div>
+        
+        <div class="col-sm-8">
+        <p class="postedcontent">{{blog.blog_content | range_filter | linebreaks}}
+        <a href="{%  url 'App_Blog:blog_details' slug=blog.slug  %}" class="read-more">Read More</a>
+        </p>
+        <h6>Posted By: <a href="#" class="posted-by">{{blog.author}}</a> </h6>
+        <h6>{{ blog.liked_blog.count }} Likes | {{ blog.blog_comment.count }} Comments</h6>
+            
+        </div>
+        
+             
+        </div>
+        </div>
 
-<div class="row">
-
-<div class="col-sm-4">
-
-<img src="/media/{{blog.blog_image}}" alt="{{ blog.blog_title}}" title="{{blog.blog_title}}" width="100%">
-
-
-    
 </div>
 
-<div class="col-sm-8">
-<p class="postedcontent">{{blog.blog_content | range_filter | linebreaks}}
-<a href="{%  url 'App_Blog:blog_details' slug=blog.slug  %}" class="read-more">Read More</a>
-</p>
-<h6>Posted By: <a href="#" class="posted-by">{{blog.author}}</a> </h6>
-<h6>{{ blog.liked_blog.count }} Likes | {{ blog.blog_comment.count }} Comments</h6>
-    
-</div>
-
-     
-</div>
-</div>
 
 {% endfor %}
 

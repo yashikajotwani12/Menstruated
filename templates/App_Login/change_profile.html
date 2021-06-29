@@ -5,7 +5,9 @@
 
 
 {% block body_block %}
-<h2>User Profile Change</h2>
+<div class="userchangeprofile">
+    <div class="userchangeprofilebox">
+        <h2>User Profile Change</h2>
 <form  method="post">
     {{form|crispy}}
 
@@ -13,4 +15,9 @@
     <button type="submit" class="btn btn-primary btn-sm">Change</button>
 
 </form>
+
+    </div>
+
+</div>
+
 {% endblock body_block %}
