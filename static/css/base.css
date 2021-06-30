@@ -120,16 +120,32 @@
     background: #ff718773;
     display: flex;
     height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
     overflow: hidden;
     z-index: 5;
 
   }
+  .contentrem{
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-right: 2rem;
+    padding-left: 7rem;
+  }
   .contentrem h2{
     font-size: 4rem;
     text-align: center;
-    margin-left: 6rem;
+    margin-left: 1rem;
     color: white;
+    font-weight: bold;
+    margin-bottom: 4rem;
 
+  }
+  .contentrem p{
+    font-size: 2rem;
+    color: indianred;
+    font-weight: bold;
   }
   .imgrem img{
     width: 23rem;
