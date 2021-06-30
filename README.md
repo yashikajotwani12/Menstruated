@@ -1,3 +1,24 @@
+<h1 align="center">
+             Menstruated :drop_of_blood:
+</h1>
+
+![Badge](https://img.shields.io/badge/Tech_Stack-Django-yellow) ![Badge](https://img.shields.io/badge/Version-1.2-green) ![Badge](https://img.shields.io/badge/License-Apache_2.0-blue) ![Badge](https://img.shields.io/badge/Type-OpenSource-orange) ![Badge](https://img.shields.io/badge/For-Students-red)
+<p align="center">
+    ✨ Welcome to Menstruated ✨ <br />
+    
+</p>
+<br />
+
+# Table of Contents
+
+    - Overview
+    - Technology & Dependencies Used
+    - Folder Structure
+    - Contribution Guideline
+
+## Overview 🔨
+
+
 ## Contribution Guidelines🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
