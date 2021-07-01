@@ -20,7 +20,7 @@
 - **Frontend:** Html,Css
 - **Backend:** Django
 - **Version Control:** Git and GitHub
-- **Hosting:** Heroku, Netlify
+- **Hosting:** Heroku
 - **Code Editor and tools**: VS Code
 
 
