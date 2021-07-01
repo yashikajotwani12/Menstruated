@@ -36,6 +36,23 @@
 ## Overview 🔨
 Menstruated is a place where women share their first-period stories, feelings, emotions through blogs. Can track your periods and get notified early through the mail. They should know that you are not alone in the fight against PCOS by-polls which shown in the graph and many other questions. Can know the myths/facts, self-care during periods.
 
+## Features:
+
+- [x] Sign up, Login, Logout
+- [x] Write Blog
+- [x] Edit Profile
+- [x] Polls
+- [x] PeriodDate Reminder
+- [x] Information about Pcods, Self care
+- [x] Frequently asked questions
+- [x] Contact section
+
+
+## Future Prospects:
+
+- Location detection and details of nearby gynecologist.
+- Adding quiz app which will take inputs about periods and give information of what is right and wrong.
+
  <details>
   <summary><strong>Setup Steps</strong></summary>
   
@@ -80,7 +97,7 @@ To start contributing, follow the below guidelines:
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/Menstruated.git
+git clone https://github.com/yashikajotwani12/Menstruated.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
