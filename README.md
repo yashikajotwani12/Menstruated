@@ -28,8 +28,9 @@
 # Table of Contents
 
     - Overview
-    - Technology & Dependencies Used
-    - Folder Structure
+    - Features
+    - Future Prospects
+    - Setup Guidelines
     - Contribution Guideline
     
 
