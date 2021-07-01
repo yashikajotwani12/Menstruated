@@ -173,6 +173,6 @@ git push -u origin <your_branch_name>
 
 
 
-[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/StandNote/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/StandNote/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/StandNote/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/StandNote/)
-[![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/StandNote/) [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://github.com/rajat2502/StandNote/)
+[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/yashikajotwani12/Menstruated) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/yashikajotwani12/Menstruated) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/yashikajotwani12/Menstruated) 
+[![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/yashikajotwani12/Menstruated) [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://github.com/yashikajotwani12/Menstruated)
 
