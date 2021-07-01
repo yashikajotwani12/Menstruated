@@ -170,3 +170,9 @@ git push -u origin <your_branch_name>
 
 
 **15** Voila :exclamation: You have made a PR to the awesome-javascript-projects :boom: . Wait for your submission to be accepted and your PR to be merged.
+
+
+
+[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rajat2502/StandNote/) [![Uses HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://github.com/rajat2502/StandNote/) [![Uses CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://github.com/rajat2502/StandNote/) [![Uses JS](https://forthebadge.com/images/badges/uses-js.svg)](https://github.com/rajat2502/StandNote/)
+[![Built with love](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rajat2502/StandNote/) [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://github.com/rajat2502/StandNote/)
+
