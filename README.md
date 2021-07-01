@@ -56,7 +56,7 @@ Menstruated is a place where women share their first-period stories, feelings, e
 - Adding quiz app which will take inputs about periods and give information of what is right and wrong.
 
 
-
+# UI of Website
 
 | ![About Us](https://github.com/yashikajotwani12/Menstruated/blob/master/AboutUs.png) | ![Explore Blogs](https://github.com/yashikajotwani12/Menstruated/blob/master/Explore%20Blogs.png) | ![Add Data](https://github.com/yashikajotwani12/Menstruated/blob/master/Add%20data.png) | ![Fields](https://github.com/yashikajotwani12/Menstruated/blob/master/Fields.png) | 
 |-|-|-|-|
