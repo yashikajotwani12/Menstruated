@@ -69,10 +69,10 @@ Menstruated is a place where women share their first-period stories, feelings, e
 
 # UI of Website
 
-| ![About Us](https://github.com/yashikajotwani12/Menstruated/blob/master/AboutUs.png) | ![Explore Blogs](https://github.com/yashikajotwani12/Menstruated/blob/master/Explore%20Blogs.png) | ![Add Data](https://github.com/yashikajotwani12/Menstruated/blob/master/Add%20data.png) | ![Fields](https://github.com/yashikajotwani12/Menstruated/blob/master/Fields.png) | 
+| ![AboutUs](https://user-images.githubusercontent.com/77020164/124215057-f3bad700-db10-11eb-8f7c-f0d44d1b25b3.png) | ![Explore Blogs](https://user-images.githubusercontent.com/77020164/124214911-a6d70080-db10-11eb-811e-6eac01d9bca1.png) | ![Add data](https://user-images.githubusercontent.com/77020164/124214935-b2c2c280-db10-11eb-992e-109f4311f61c.png) | ![Fields](https://user-images.githubusercontent.com/77020164/124214915-a8a0c400-db10-11eb-845f-0c028258b207.png) | 
 |-|-|-|-|
 | About Us | Explore Page | Add Data | Fields |
-| ![Period date reminder](https://github.com/yashikajotwani12/Menstruated/blob/master/Period%20date%20reminder.png) | ![Polls to answer](https://github.com/yashikajotwani12/Menstruated/blob/master/Polls%20to%20answer.png) | ![contactsection](https://github.com/yashikajotwani12/Menstruated/blob/master/contactsection.png) | ![Blog List](https://github.com/yashikajotwani12/Menstruated/blob/master/Blog%20List.png) |
+| ![Period date reminder](https://user-images.githubusercontent.com/77020164/124214971-c5d59280-db10-11eb-9aed-2cc00df9d296.png)| ![polls](https://user-images.githubusercontent.com/77020164/124214993-d128be00-db10-11eb-98a8-58264ccc7c17.png) | ![contactsection](https://user-images.githubusercontent.com/77020164/124214900-a2124c80-db10-11eb-8ffb-23fb22e67857.png) | ![Blog List](https://user-images.githubusercontent.com/77020164/124214942-b5bdb300-db10-11eb-90e6-a348769bbb44.png) |
 | PeriodDateReminder | Pollstoknow | Contact section | Blog List |
 
 
