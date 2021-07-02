@@ -36,7 +36,7 @@
     
 
 ## Overview 🔨
-Menstruated is a place where women share their first-period stories, feelings, emotions through blogs. Can track your periods and get notified early through the mail. They should know that you are not alone in the fight against PCOS by-polls which shown in the graph and many other questions. Can know the myths/facts, self-care during periods.
+Menstruated is a place where women share their first-period stories, feelings, emotions through blogs. Can track their periods and get notified early through the mail. They should know that they are not alone in the fight against PCOS by-polls which shown in the graph and many other questions. Can know the myths/facts, self-care during periods.
 
 ## Features:
 
