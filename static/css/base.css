@@ -142,9 +142,43 @@
     margin-bottom: 4rem;
 
   }
+  .Talkabout{
+    background: #ff718773;
+    height: 30rem;
+  }
+  .Talkabout h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+  }
+  .mainchat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d97f7f;
+    margin: 2rem 4rem;
+    padding: 2rem 2rem;
+    
+    height: 17rem;
+    border-radius: 18px;
+    box-shadow: 0 0 5px 2px rgb(158 158 158 / 35%);
+  }
+  .rightchat img{
+    width: 12rem;
+  }
+  .leftchat a button{
+    margin-left: 20rem;
+  }
   .contentrem p{
     font-size: 2rem;
     color: indianred;
+    font-weight: bold;
+  }
+  .leftchat p{
+    color: indianred;
+    font-size: 19px;
+    margin: 1rem 1rem;
     font-weight: bold;
   }
   .imgrem img{
