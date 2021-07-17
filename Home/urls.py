@@ -8,8 +8,6 @@ urlpatterns = [
   path('contact', views.contact, name ="contact"),
   path('faq', views.faq, name ="faq"),
   path('pcod', views.pcod, name ="pcod"),
-  path('selfcare', views.selfcare, name ="selfcare"),
-
-  
+  path('selfcare', views.selfcare, name ="selfcare"),  
 ]
 
