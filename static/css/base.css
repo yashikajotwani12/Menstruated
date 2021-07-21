@@ -178,8 +178,8 @@
   }
   .leftchat p{
     color: indianred;
-    font-size: 26px;
-    margin: 2rem 1rem;
+    font-size: 22px;
+    margin: 1rem 3rem;
     font-weight: bold;
   }
   .imgrem img{
@@ -244,16 +244,16 @@
 
   }
   .blogimg img{
-    width: 27rem;
+    width: 21rem;
   }
   .blogcontent button{
     margin-left: 4rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
   .blogcontent p{
     margin-top: 2rem;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
     color: indianred;
 
   }
