@@ -1,3 +1,9 @@
 [submodule "Polling_app"]
 	path = Polling_app
 	url = https://github.com/yashikajotwani12/Poll
+[submodule "LetsChat"]
+	path = LetsChat
+	url = https://github.com/yashikajotwani12/LetsChat
+[submodule "PeriodsReminder"]
+	path = PeriodsReminder
+	url = https://github.com/yashikajotwani12/PeriodsDateReminder
