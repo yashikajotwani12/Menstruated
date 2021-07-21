@@ -17,11 +17,11 @@
     
    {{ form | crispy }} 
    {% csrf_token %}
-   <button type="submit" class="btn btn-success btn-sm">Create Account</button>
+   <button type="submit" style="width: 12rem;" class="custom-btn btn-2">Create Account</button>
 
 </form>
 <br>
-<p>Already Have an account? <a href="{% url 'App_Login:signin' %}"><button type="submit" class="btn btn-success btn-sm">Login Here</button></a></p>
+<p>Already Have an account? <a href="{% url 'App_Login:signin' %}"><button type="submit" class="custom-btn btn-2">Login Here</button></a></p>
 {% endif %}
 </div>
 {% endblock %}

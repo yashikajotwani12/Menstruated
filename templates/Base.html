@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-   
+
     <title>
 
         {% block title %}
@@ -23,9 +23,11 @@
     <link href="{% static 'css/base.css' %}" rel="stylesheet" />
 
 </head>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="function.js"></script>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <img style="width: 24px;
@@ -50,12 +52,12 @@
             <!-- <li class="nav-item active">
                 <img src="/media/images (1).png" alt="">
             </li> -->
-            
 
-            
-            
-           
-            <li class="nav-item active">
+
+
+
+
+    <!-- <li class="nav-item active">
                 <a class="nav-link" href="{% url 'App_Login:profile' %}">Profile</a>
             </li>
             <li class="nav-item active">
@@ -86,7 +88,80 @@
 
         </ul>
 
-    </nav>
+    </nav> -->
+    <section class="nav-bar">
+        <div class="nav-container">
+            <div class="logo" style=" color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-decoration: none;
+            ">
+
+                <a href="" style="display: flex;
+                  
+                align-items: center;
+                   
+                color: white;
+                 text-decoration: none;"><img style="width: 20px;margin-right: 1rem;" src="https://www.pngkey.com/png/full/72-724918_vector-drip-clip-art-blood-drop-clipart-png.png"alt="">Menstruated </a>
+            </div>
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="{% url 'index' %}">Home</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                    
+                    <li>
+                        <a href="#">Blogs</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="{% url 'App_Blog:blog_list' %}">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'App_Blog:create_blog' %}">Publish Blog</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'App_Blog:my_blogs' %}">My Blogs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://letsuschat.herokuapp.com/">Let's Chat</a>
+                    </li>
+                    <li>
+                        <a href="#!">Explore</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="https://remindmemyperiods.herokuapp.com/">Periods Date Reminder</a>
+                            </li>
+                            <li>
+                                <a href="https://polledin.herokuapp.com/">Polls</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{% url 'App_Login:profile' %}">{{ user.username }}</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'App_Login:logout' %}">Logout</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="{% url 'App_Login:signup' %}">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'App_Login:signin' %}">Login</a>
+                    </li>
+
+                    {% endif %}
+
+                </ul>
+
+            </nav>
+        </div>
+    </section>
 
     <div class="containermain">
         <div class="main">
@@ -99,5 +174,26 @@
     </div>
 
 </body>
+<script>
+    (function ($) {
+        $(function () {
+            $('nav ul li a:not(:only-child)').click(function (e) {
+                $(this).siblings('.nav-dropdown').toggle();
+                $('.dropdown').not($(this).siblings()).hide();
+                e.stopPropagation();
+            });
+            $('html').click(function () {
+                $('.nav-dropdown').hide();
+            });
+            $('#nav-toggle').click(function () {
+                $('nav ul').slideToggle();
+            });
+            $('#nav-toggle').on('click', function () {
+                this.classList.toggle('active');
+            });
+        });
+    })(jQuery);
+
+</script>
 
 </html>

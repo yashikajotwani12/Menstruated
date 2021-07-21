@@ -1,0 +1,3 @@
+[submodule "Polling_app"]
+	path = Polling_app
+	url = https://github.com/yashikajotwani12/Poll
