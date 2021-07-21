@@ -811,7 +811,7 @@
   font-size: 4rem;
   text-align: center;
 }
-.addprofilepic,.userchangeprofile,.blogmy,.editblog{
+.addprofilepic,.userchangeprofile,.editblog{
   padding: 20px;
     display: flex;
     flex-direction: column;
@@ -820,7 +820,7 @@
     background: #ffa9b2;
     height: 100vh;
 }
-.addprofilepicbox,.userchangeprofilebox,.profile-card,.blogmybox,.editblogbox{
+.addprofilepicbox,.userchangeprofilebox,.profile-card,.editblogbox{
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -1046,5 +1046,14 @@ article {
   padding: 4rem;
   border-radius: 17px;
 }
+.blogmybox{
+  background: pink;
+  margin: 2rem 3rem;
+  margin-top: 3rem;
+  border-radius: 16px;
+  padding: 2rem 2rem;
+  padding-top: 1rem;
+  box-shadow: 0 0 9px 4px rgb(255 192 203);
 
+}
 

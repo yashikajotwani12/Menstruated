@@ -20,15 +20,17 @@
       <div class="col-sm-8">
     <p>{{blog.blog_content | range_filter | linebreaks}}
     <a href="{%  url 'App_Blog:blog_details' slug=blog.slug %}">Read More</a>
+    
     </p>
     <h6>Posted By: <a href="#">{{blog.author}}</a> </h6>
     <h6>{{ blog.liked_blog.count }} Likes | {{ blog.blog_comment.count }} Comments</h6>
+    <a href="{%  url 'App_Blog:edit_blog' pk=blog.pk %} " style="text-decoration: none;" class="custom-btn btn-2">Edit</a>
     
         
       </div>
         
     </div>
-    <a href="{%  url 'App_Blog:edit_blog' pk=blog.pk %} " class="custom-btn btn-2">Edit</a>
+
     
 
   </div>
