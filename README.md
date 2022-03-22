@@ -88,7 +88,7 @@ Menstruated is a place where women share their first-period stories, feelings, e
 <!-- 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/icB4Uq4orRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-## YouTube Vedio:
+## YouTube Video:
 [![ Explanation YouTube vedio ](http://img.youtube.com/vi/icB4Uq4orRc/0.jpg)](https://www.youtube.com/embed/icB4Uq4orRc)
 
 
