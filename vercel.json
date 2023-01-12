@@ -1,0 +1,14 @@
+
+{
+    "builds": [{
+        "src": "StainStrong/wsgi.py",
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "StainStrong/wsgi.py"
+        }
+    ]
+}
