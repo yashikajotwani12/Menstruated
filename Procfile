@@ -1,1 +1,1 @@
-web gunicorn StainStrong.wsgi --log-file -
+web: gunicorn StainStrong.wsgi --log-file -
